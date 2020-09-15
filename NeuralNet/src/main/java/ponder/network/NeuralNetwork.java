@@ -34,7 +34,7 @@ public class NeuralNetwork
   /**
    *
    * @param inputs Run one set of features through the network.
-   * @return THe outputs from the run.
+   * @return The outputs from the run.
    * @throws PonderInvalidInputException Indicates invalid inputs, such as an incorrect input feature count.
    */
   public double[] run(double[] inputs) throws PonderInvalidInputException
